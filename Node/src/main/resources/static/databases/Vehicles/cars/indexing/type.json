@@ -1,0 +1,20 @@
+{
+  "Toyota": [
+    "4.json",
+    "5.json"
+  ],
+  "Tesla": [
+    "6.json"
+  ],
+  "BMW": [
+    "7.json"
+  ],
+  "Kia": [
+    "8.json",
+    "10.json",
+    "11.json"
+  ],
+  "Mercedes-Benz": [
+    "9.json"
+  ]
+}

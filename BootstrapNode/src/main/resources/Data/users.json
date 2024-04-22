@@ -1,0 +1,15 @@
+[ {
+  "userName" : "admin",
+  "storedHash" : "vizNy2PlHHPl45UPlTVXLg==",
+  "password" : "MCjST",
+  "salt" : "Psa5bes9IlqLJfPQdfZX8w==",
+  "role" : "admin",
+  "_id" : "7b04bcbe-9253-4dbb-b7b4-c0438593ea93"
+}, {
+  "userName" : "hadeel",
+  "storedHash" : "97bsDlbHEqYTir8usEZFIA==",
+  "password" : "8UO4o",
+  "salt" : "hcbSyCGucdiSoBd4QbdIbg==",
+  "role" : "user",
+  "_id" : "6a173431-ce1c-4d69-a045-26efd16080fd"
+} ]

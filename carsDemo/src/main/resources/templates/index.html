@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Login</title>
+</head>
+<body>
+<h2>Enter Your Name</h2>
+<form action="localhost:8010/" method="post" >
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required >
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<!-- Display user information if available -->
+<div th:if="${username != null}">
+    <h2>User Information:</h2>
+    <p th:text="'Username: ' + ${username}"></p>
+    <p th:text="'Password: ' + ${password}"></p>
+</div>
+</body>
+</html>

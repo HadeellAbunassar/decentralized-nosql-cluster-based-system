@@ -1,0 +1,32 @@
+[
+  {
+    "name": "node1",
+    "isAffinity": true,
+    "port": "8001",
+    "users": []
+  },
+  {
+    "name": "node2",
+    "isAffinity": true,
+    "port": "8002",
+    "users": []
+  },
+  {
+    "name": "node3",
+    "isAffinity": false,
+    "port": "8003",
+    "users": []
+  },
+  {
+    "name": "node4",
+    "isAffinity": false,
+    "port": "8004",
+    "users": []
+  },
+  {
+    "name": "node5",
+    "isAffinity": false,
+    "port": "8005",
+    "users": []
+  }
+]
